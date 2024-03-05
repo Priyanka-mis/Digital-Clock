@@ -1,0 +1,234 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body{
+    /* background-image: linear-gradient(rgb(197, 229, 242), rgb(181, 210, 222)); */
+
+}
+
+
+.container{
+    height: 120rem;
+    width: 60%;
+    margin-left: 60rem;
+    margin-top: 10rem;
+    border: 10px solid white;
+    border-radius: 50px;
+    box-shadow:rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-image: linear-gradient(rgb(234, 170, 214), rgb(225, 230, 232));
+}
+
+.dial-clock{
+    height: 80rem;
+    width: 80rem;
+    border: 20px solid red;
+    text-align: center;
+    margin-left: 50rem;
+    margin-top: 20rem;
+    border-radius: 50rem;
+    position: relative;
+    
+}
+
+.brand{
+    font-size: 50px;
+    font-weight: bold;
+    color: red;
+    padding-top: 220px;
+}
+
+.point{
+    height: 50px;
+    width: 50px;
+    background-color:black;
+    border-radius: 200px;
+    position: absolute;
+    margin-left: 620px;
+    margin-top: 360px;
+
+}
+
+.hour{
+    font-size: 70px;
+    font-weight: bold;
+    color: #283149;
+    position: absolute;
+}
+
+#hour1{
+    top: 120px;
+    left: 60rem;
+}
+
+#hour2{
+    top: 20rem;
+    left: 72rem;
+}
+
+#hour3{
+    top: 37rem;
+    left: 76rem;
+}
+
+#hour4{
+    top: 16rem;
+    right: 55px;
+}
+
+
+#hour5{
+    top: 30rem;
+    right: 15rem;
+}
+
+
+#hour6{
+    top: 590px;
+    right: 36rem;
+} 
+
+#hour7{
+    top: 32rem;
+    right: 57rem;
+}
+
+#hour8{
+    top:18rem;
+    right:71rem
+}
+
+#hour9{
+    top:1rem;
+    right:75rem;
+}
+
+
+#hour10{
+    right: 68rem;
+    bottom: 17rem;
+}
+
+#hour11{
+    right: 56rem;
+    bottom: 30rem;
+}
+
+
+#hour12{
+    right: 36rem;
+    bottom: 36rem;
+
+}
+
+
+.minute-hand-wrapper{
+    width: 990px;
+    height: 990px;
+    position: absolute;
+    /* background-color: red; */
+    left: 1940px;
+    top: 666px;
+    border-radius: 50%;
+
+
+}
+
+.minute-hand{
+    position: relative;
+}
+
+
+.minute-hand-line{
+    width: 8px;
+    height: 490px;
+    background-color: red;
+    position: absolute;
+    margin-top: 20px;
+    margin-left:49% ;
+    /* bottom: 0px; */
+   
+
+
+}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+.minute-arrow{
+    font-size: 5rem;
+    font-weight: bold;
+    color: red;
+    transform: rotate(180deg);
+    position: absolute;
+    margin-left:466px;
+    top: 8px;
+}
+
+
+
+
+.hours-hand-wrapper{
+    width: 390px;
+    height: 390px;
+    position: absolute;
+    /* background-color:black; */
+    left: 2254px;
+    top: 999px;
+    border-radius: 50%;
+
+
+}
+
+
+.hours-hand{
+    position: relative;
+}
+
+
+.hours-hand-line{
+    width: 10px;
+    height: 340px;
+    background-color:red;
+    position: absolute;
+    margin-top: -150px;
+    margin-left:50% ; 
+}
+
+.hours-arrow{
+    position: absolute;
+    font-size: 5rem;
+    font-weight: bold;
+    color: red;
+    transform: rotate(180deg);
+    margin-top: -43%;
+    margin-left: 46%;
+}
+
+
+.seconds-hand-wrapper{
+    width: 990px;
+    height: 990px;
+    position: absolute;
+    /* background-color:yellow; */
+    left: 1940px;
+    top: 666px;
+    border-radius: 50%;
+
+
+}
+
+.seconds-hand{
+    position: relative;
+    
+}
+
+.seconds-hand-line{
+        width: 6px;
+        height: 430px;
+        background-color:red;
+        position: absolute;
+        top: 78px;
+        left:50% ; 
+        transform-origin: 50% 100%;  
+    
+}
+
